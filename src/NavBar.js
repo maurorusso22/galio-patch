@@ -92,22 +92,22 @@ function NavBar({
   );
 }
 
-NavBar.defaultProps = {
-  back: false,
-  transparent: false,
-  title: null,
-  titleStyle: null,
-  left: null,
-  leftStyle: null,
-  leftIconColor: null,
-  onLeftPress: () => {},
-  leftHitSlop: null,
-  right: null,
-  rightStyle: null,
-  style: null,
-  styles: {},
-  theme: GalioTheme,
-};
+// NavBar.defaultProps = {
+//   back: false,
+//   transparent: false,
+//   title: null,
+//   titleStyle: null,
+//   left: null,
+//   leftStyle: null,
+//   leftIconColor: null,
+//   onLeftPress: () => {},
+//   leftHitSlop: null,
+//   right: null,
+//   rightStyle: null,
+//   style: null,
+//   styles: {},
+//   theme: GalioTheme,
+// };
 
 NavBar.propTypes = {
   back: PropTypes.bool,

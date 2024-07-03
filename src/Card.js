@@ -103,19 +103,19 @@ function Card({
   );
 }
 
-Card.defaultProps = {
-  card: true,
-  shadow: true,
-  borderless: false,
-  styles: {},
-  theme: GalioTheme,
-  title: '',
-  titleColor: '',
-  caption: '',
-  captionColor: '',
-  footerStyle: {},
-  avatar: '',
-};
+// Card.defaultProps = {
+//   card: true,
+//   shadow: true,
+//   borderless: false,
+//   styles: {},
+//   theme: GalioTheme,
+//   title: '',
+//   titleColor: '',
+//   caption: '',
+//   captionColor: '',
+//   footerStyle: {},
+//   avatar: '',
+// };
 
 Card.propTypes = {
   card: PropTypes.bool,

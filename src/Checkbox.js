@@ -147,24 +147,24 @@ const styles = theme =>
     },
   });
 
-Checkbox.defaultProps = {
-  checkboxStyle: null,
-  color: 'theme',
-  disabled: false,
-  flexDirection: 'row',
-  iconColor: '#fff',
-  iconName: 'check',
-  iconSize: 15,
-  iconFamily: 'FontAwesome',
-  image: null,
-  imageStyle: null,
-  initialValue: false,
-  label: null,
-  labelStyle: null,
-  onChange: () => {},
-  styles: {},
-  theme: GalioTheme,
-};
+// Checkbox.defaultProps = {
+//   checkboxStyle: null,
+//   color: 'theme',
+//   disabled: false,
+//   flexDirection: 'row',
+//   iconColor: '#fff',
+//   iconName: 'check',
+//   iconSize: 15,
+//   iconFamily: 'FontAwesome',
+//   image: null,
+//   imageStyle: null,
+//   initialValue: false,
+//   label: null,
+//   labelStyle: null,
+//   onChange: () => {},
+//   styles: {},
+//   theme: GalioTheme,
+// };
 
 Checkbox.propTypes = {
   checkboxStyle: PropTypes.any,

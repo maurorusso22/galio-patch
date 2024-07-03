@@ -35,16 +35,16 @@ function Switch({
   );
 }
 
-Switch.defaultProps = {
-  color: GalioTheme.COLORS.PRIMARY,
-  ios_backgroundColor: GalioTheme.COLORS.GREY,
-  trackColor: {
-    false: GalioTheme.COLORS.GREY,
-    true: GalioTheme.COLORS.PRIMARY,
-  },
-  disabled: false,
-  initialValue: false,
-};
+// Switch.defaultProps = {
+//   color: GalioTheme.COLORS.PRIMARY,
+//   ios_backgroundColor: GalioTheme.COLORS.GREY,
+//   trackColor: {
+//     false: GalioTheme.COLORS.GREY,
+//     true: GalioTheme.COLORS.PRIMARY,
+//   },
+//   disabled: false,
+//   initialValue: false,
+// };
 
 Switch.propTypes = {
   ...Switcher.propTypes,

@@ -127,27 +127,27 @@ function Button({
   );
 }
 
-Button.defaultProps = {
-  color: 'primary',
-  size: 'default',
-  disabled: false,
-  uppercase: false,
-  lowercase: false,
-  capitalize: false,
-  shadowless: false,
-  shadowColor: false,
-  onlyIcon: false,
-  loading: false,
-  loadingSize: 'small',
-  opacity: .8,
-  icon: false,
-  iconRight: false,
-  iconFamily: false,
-  iconSize: 16,
-  iconColor: null,
-  styles: {},
-  theme: GalioTheme,
-};
+// Button.defaultProps = {
+//   color: 'primary',
+//   size: 'default',
+//   disabled: false,
+//   uppercase: false,
+//   lowercase: false,
+//   capitalize: false,
+//   shadowless: false,
+//   shadowColor: false,
+//   onlyIcon: false,
+//   loading: false,
+//   loadingSize: 'small',
+//   opacity: .8,
+//   icon: false,
+//   iconRight: false,
+//   iconFamily: false,
+//   iconSize: 16,
+//   iconColor: null,
+//   styles: {},
+//   theme: GalioTheme,
+// };
 
 Button.propTypes = {
   ...TouchableOpacity.propTypes,

@@ -177,20 +177,20 @@ class Slider extends PureComponent {
   }
 }
 
-Slider.defaultProps = {
-  disabled: false,
-  minimumValue: 0,
-  maximumValue: 100,
-  trackStyle: {},
-  thumbStyle: {},
-  value: 0,
-  step: 0,
-  style: null,
-  theme: GalioTheme,
-  onSlidingComplete: () => {},
-  onSlidingStart: () => {},
-  onValueChange: () => {},
-};
+// Slider.defaultProps = {
+//   disabled: false,
+//   minimumValue: 0,
+//   maximumValue: 100,
+//   trackStyle: {},
+//   thumbStyle: {},
+//   value: 0,
+//   step: 0,
+//   style: null,
+//   theme: GalioTheme,
+//   onSlidingComplete: () => {},
+//   onSlidingStart: () => {},
+//   onValueChange: () => {},
+// };
 
 Slider.propTypes = {
   value: PropTypes.number,

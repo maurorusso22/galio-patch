@@ -132,18 +132,18 @@ const styles = theme =>
       },
     });
 
-Radio.defaultProps = {
-  color: 'primary',
-  disabled: false,
-  flexDirection: 'row',
-  initialValue: false,
-  label: null,
-  labelStyle: null,
-  onChange: () => {},
-  styles: {},
-  theme: GalioTheme,
-  value: false
-};
+// Radio.defaultProps = {
+//   color: 'primary',
+//   disabled: false,
+//   flexDirection: 'row',
+//   initialValue: false,
+//   label: null,
+//   labelStyle: null,
+//   onChange: () => {},
+//   styles: {},
+//   theme: GalioTheme,
+//   value: false
+// };
 
 Radio.propTypes = {
   color: PropTypes.string,
